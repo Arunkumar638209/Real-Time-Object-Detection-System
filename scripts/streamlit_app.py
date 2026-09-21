@@ -11,18 +11,23 @@ st.set_page_config(
 st.title("🎯 Real-Time Object Detection")
 st.write("YOLOv8 Object Detection System")
 
+
 @st.cache_resource
 def load_model():
-    return YOLO("yolov8.pt")
+    return YOLO("yolov8n.onnx")
+
 
 model = load_model()
+
 
 uploaded_file = st.file_uploader(
     "Upload an image",
     type=["jpg", "jpeg", "png"]
 )
 
+
 if uploaded_file is not None:
+
     image = Image.open(uploaded_file)
 
     st.image(
