@@ -1,17 +1,8 @@
+streamlit
+ultralytics
+pillow
+numpy
+opencv-python-headless
 <<<<<<< HEAD
-ultralytics>=8.0.0
-opencv-python>=4.5.0
-torch>=1.9.0
-torchvision>=0.10.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-pillow>=8.0.0
 =======
-ultralytics>=8.0.0
-opencv-python>=4.5.0
-torch>=1.9.0
-torchvision>=0.10.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-pillow>=8.0.0
->>>>>>> 28936ff3eab18151e8a6e78b9a65b93ad5925ed7
+>>>>>>> 28936ff3eab18151e8a6e78b9a65b93ad5925ed7Get-Content .\requirements.txt
