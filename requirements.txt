@@ -3,6 +3,3 @@ ultralytics
 pillow
 numpy
 opencv-python-headless
-<<<<<<< HEAD
-=======
->>>>>>> 28936ff3eab18151e8a6e78b9a65b93ad5925ed7Get-Content .\requirements.txt
